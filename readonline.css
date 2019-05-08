@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+html, body {
+    height: 100%;
+}
+.topnav {
+    display: flex;
+    
+    justify-content: flex-end;
+    
+
+   
+
+    width: 97.5%;
+    margin: auto;
+    max-width: 1200px;
+    -ms-align-items: center;
+    align-items: center;
+    letter-spacing: 0.5px;
+    /* margin-top: 20px; */
+    padding: 20px;
+
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.nav-link+.nav-link {
+    margin-left: 3%;
+}
+
+
+
+/* .search-wrapper {
+    width: 15%;
+    
+    }
+    .serc {
+        background-image: url(../img/seach.png);
+        background-position: 0px center;
+        background-repeat: no-repeat;
+        -webkit-background-size: 15px 15px;
+        background-size: 15px 15px;
+        border: none;
+        padding-left: 20px; 
+        font-size: 1.5rem;
+        outline: none;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        width: 100%;
+    } */
+
+.header {
+ 
+margin-top: 10px; 
+background-image: url(../img/img1.jpg);
+background-repeat: no-repeat;
+height: calc(100% - 77px);
+-webkit-background-size: cover;
+background-size: cover;
+background-position: 50% 30%;
+position: relative;
+z-index: 1;
+display: flex;
+justify-content: center;
+-ms-align-items: center;
+align-items: center;
+color: white;
+
+
+}
+
+
+.header > .box {
+    z-index: 1;
+    text-align: center;
+    
+    
+
+}
+
+    .h {
+
+font-size: 35px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+    
+
+.raz {
+
+
+    width: calc(100% / 3 - 2%);
+  
+    margin: 1%;
+    padding: 6% 2%;
+  
+}
+
+
+.raz-all {
+
+    flex-wrap: wrap;
+    max-width: 1000px;
+ 
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+   
+    margin-top: 90px;
+    flex-wrap: wrap;
+}
+
+.readmore {
+
+width: 92.3%;
+color: black;
+margin-top: 3%;
+font-size: 130%;
+background-color: white;
+border-color: black; 
+border-radius: 1%;
+}
+
+
+.book { 
+margin: 3%;
+margin-left: 26%;
+
+}
+
+.rh1{
+margin-top: 2.4%;
+margin-left: 39.5%;
+font-size: 310%;
+}
+
+.r {
+
+font-size: 150%;
+}
+
+.r1 {
+
+margin-left: 37.5%;
+
+}
+
+
+.r2 {
+
+margin-left: 16%;
+
+}
+
+.r3 {
+
+margin-left: 0.2%;
+}
+
+span {
+
+font-size: 1;
+}
+
